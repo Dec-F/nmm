@@ -1,6 +1,6 @@
 {
   "name": "@tbox/nmm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Migrate global packages after nvm switches versions",
   "main": "./lib/index.js",
   "bin": {
@@ -59,7 +59,9 @@
     "nyc": "^13.3.0"
   },
   "dependencies": {
+    "argparse": "^1.0.10",
     "chalk": "^2.4.2",
+    "inquirer": "^6.3.1",
     "rimraf": "^2.6.3"
   }
 }
